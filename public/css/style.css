@@ -186,9 +186,11 @@
 
 @media (max-width: 992px) {
     nav.bg-transparent {
-        position: absolute;
+        position: absolute !important;
         width: 100%;
-        background: transparent !important;
+        background: #ffffff !important;
+        top: 0;
+        display: inline-flex;
     }
 
     .navbar.navbar-expand-lg button span {
